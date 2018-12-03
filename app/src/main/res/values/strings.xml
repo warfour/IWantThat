@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IWantThat</string>
+    <string name="title_activity_directions">Map</string>
+    <string name="search_hint">What do you want?</string>
+    <string name="search_button">Search</string>
+    <string name="searching">Searching...</string>
+    <string name="add_list_button">Add to List</string>
+    <string name="want_button">I Want This!</string>
+    <string name="remove_button">Remove</string>
+    <string name="remove_all_button">Remove All Entries</string>
+    <string name="remove_all_option">Remove All Button Active</string>
+    <string name="darkmode_option">DarkMode Active</string>
+</resources>

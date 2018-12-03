@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:padding="6dip"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/productText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".33"
+                android:text="Product" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".66"
+                android:text="Price" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/supplierText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.40"
+                android:text="Supplier" />
+
+            <Button
+                android:id="@+id/listButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.30"
+                android:text="@string/add_list_button"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/wantButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.30"
+                android:text="@string/want_button"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

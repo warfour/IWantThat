@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="darkmode_preference"
+        android:title="@string/darkmode_option" />
+
+    <SwitchPreference
+        android:key="delete_all_preference"
+        android:title="@string/remove_all_option"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>
